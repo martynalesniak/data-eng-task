@@ -24,20 +24,18 @@ The analysis is based on the MovieLens dataset, which is a dataset used for movi
 
 1. **Clone the Repository**
    ```bash
-   git clone [text](https://github.com/martynalesniak/data-eng-task.git)
+   git clone https://github.com/martynalesniak/data-eng-task.git
    cd <path-to-repository-directory>
 2. **Ensure Docker and Docker Compose are installed**
-    Run following commands:
+    You can run following commands:
     ```bash
     docker --version
     docker-compose --version
 3. **Run the containers**
     ```bash
     docker-compose up
-4. **Open Jupyter Notebook**
-    Open your web browser and go to page http://localhost:8888. Open the transform.ipynb file, use the provided functions create_tables() and load_data() to import MovieLens dataset into the PostgreSQL database.
-5. **Run the queries functions**
-    Use the functions in the notebook to answer the analysis questions.
+4. Open your web browser and go to page http://localhost:8888. Open the transform.ipynb file, use the provided functions create_tables() and load_data() to import MovieLens dataset into the PostgreSQL database.
+5. Use the functions in the notebook to answer the analysis questions.
 
 ## Description of the solution
 
