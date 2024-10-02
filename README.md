@@ -33,7 +33,7 @@ The analysis is based on the MovieLens dataset, which is a dataset used for movi
     docker-compose --version
 3. **Run the containers**
     ```bash
-    docker-compose up
+    docker-compose up --build
 4. Open your web browser and go to page http://localhost:8888. Open the transform.ipynb file, use the provided functions create_tables() and load_data() to import MovieLens dataset into the PostgreSQL database.
 5. Use the functions in the notebook to answer the analysis questions.
 
